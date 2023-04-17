@@ -25,5 +25,8 @@ int main()
     }
 
     result = del * del_2;
+
     cout << "Результат: " << result << endl;
+
+
 }
