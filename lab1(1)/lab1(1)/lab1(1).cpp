@@ -4,6 +4,7 @@ using namespace std;
 
 int main()
 {
+    setlocale(LC_ALL, "Russian");
     int n, m, a;
     unsigned long long result, del, del_2;
     cin >> n;
@@ -24,5 +25,5 @@ int main()
     }
 
     result = del * del_2;
-    cout << result << endl;
+    cout << "Результат: " << result << endl;
 }
